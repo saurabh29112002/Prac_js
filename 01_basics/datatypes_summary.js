@@ -37,3 +37,30 @@ let MyFunction = function(){
 // MyFunction ka bhi check karo to function dikhega but vo hota ObjFunction hai
 
 // null ka bhi type Obj hi hota hai
+
+
+// ***********************************************************************8
+
+// Stack (Primitive) and Heap (Non-Primitive)
+
+let LinkedInName = "Saurabh Mishra"
+
+let anotherName = LinkedInName
+anotherName = "Data Analyst"
+
+console.log(LinkedInName);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com",
+    UPI_id : "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "saurabh@google.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
+
+// stack ke andr jo bhi jayega uska bus hame ek copy hi milta hai
+// heap ke andr jo jata hai uska reference hame milta hai
