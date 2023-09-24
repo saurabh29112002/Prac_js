@@ -29,3 +29,25 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ************************************Operations*************************************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+console.log("3" + 3);
+console.log(3 + "3");
+console.log(3 + 3 + "3");
+console.log("3" + 3 + 3);
+
+console.log(true);
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter); //postfix mai baad mai increment hota hai pehle number ka operation hoga
+
+++gameCounter
+console.log(gameCounter); // prefix mai pehle increament hota hai
